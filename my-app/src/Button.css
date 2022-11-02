@@ -1,0 +1,10 @@
+.btn{
+    transition: all 0.3s ease-in-out;
+    background-color: #057;
+    color: white;
+    border:solid 2px rgb(225, 223, 223);
+    border-radius: 5px;
+    padding: 15px 25px;
+    margin: 15px;
+
+}

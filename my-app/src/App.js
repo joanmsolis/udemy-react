@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from './Button' 
 
-function App() {
+const arr = [
+  'chanchito felix',
+  'chanchito triste',
+  'chanchito emocionado',
+]
+
+const app = () =>{
+  const miVariable = false;
+  if(miVariable){
+    return <p>Mi Variable es Verdadera</p>
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+<div>
+<h1 onClick={(e) => console.log('click',e)}>Hola Mundo</h1>
+{arr.map(el => <p key={el}>{el}</p>)}
+<Button onClick={() => console.log('clikeado')}>enviar</Button>
+</div>
+  )
 }
-
-export default App;
+export default app
