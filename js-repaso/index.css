@@ -43,3 +43,23 @@ label{
     margin-left: 10px;
     
 }
+h2{
+margin-left: 20%;
+}
+a{
+    text-decoration: none;
+    margin:20%;
+}
+button{
+    border: solid 1px hsl(275, 93%, 48%);
+    padding: 10px;
+    margin: 15px;
+    background-color: black;
+    color: #8b80f9;
+}
+button:hover{
+    border: 2px solid #8b80f9;
+    box-shadow: #8b80f9 0px 0px 12px 1px inset,
+                #8b80f9 0px 0px 12px 1px;
+                border-radius: 15px;
+}
